@@ -14,6 +14,7 @@ public class Test1 {
 		options.addArguments("--remote-allow-origins=*");
 		WebDriver driver= new ChromeDriver(options);
 		driver.get("http://leafground.com/");
+		system.out.println("Hi");
 	}
 
 }
